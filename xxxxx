@@ -2062,37 +2062,6 @@ function alfacheckupdate(){
 		}
 	}
 	if(function_exists("curl_version")){
-		$update = new AlfaCURL();
-		$json = $update->Send("http://solevisible.com/update.json?ver=".__ALFA_VERSION__);
-		$json = @json_decode($json,true);
-		$data = array();
-		if($json){
-			if(!isset($_COOKIE['alfa_checkupdate']) && !empty($json["type"])){
-				if($json["type"] == "update"){
-					if(__ALFA_VERSION__ != $json['version'] || __ALFA_UPDATE__ != $json['version_number']){
-						@setcookie("alfa_checkupdate", "1", time()+86400);
-						$data["content"] = '<div class="update-holder">'.$json["content"].'</div>';
-					}
-				}
-			}
-			if(isset($json["ads"]) && !empty($json["ads"])){
-				$data["content"] .= $json["ads"];
-			}
-			if(isset($json["copyright"]) && !empty($json["copyright"])){
-				$data["copyright"] = $json["copyright"];
-			}
-			if(isset($json["solevisible"]) && !empty($json["solevisible"])){
-				$data["solevisible"] = $json["solevisible"];
-			}
-			if(isset($json["code_name"]) && !empty($json["code_name"])){
-				$data["code_name"] = $json["code_name"];
-				$data["version_number"] = __ALFA_VERSION__;
-			}
-			if(isset($json["market"]) && !empty($json["market"])){
-				$data["market"] = $json["market"];
-			}
-			echo @json_encode($data);
-		}
 	}
 }
 function alfaWriteTocgiapi($name, $source){
